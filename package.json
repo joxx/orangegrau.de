@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npm-run-all --parallel watch:*",
     "build": "npm-run-all --parallel build:*",
-    "watch:rollup": "rollup ./src/js/main.js --file ./public/bundle.js --format es",
+    "watch:rollup": "rollup ./src/js/main.js --file ./public/js/bundle.js --format es",
     "watch:sass": "sass --source-map -w src/css:public/css",
     "watch:eleventy": "eleventy --serve",
     "build:sass": "sass --style=compressed --no-source-map src/css:public/css",
