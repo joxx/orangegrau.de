@@ -91,17 +91,19 @@ nav {
 main {
   margin-inline: auto;
   max-width: 70ch;
-  padding: 1rem;
+  padding: 3rem 1rem;
 }
 
 h1 {
-  width: fit-content;
+  font-size: 2.5rem;
+  line-height: 1.2;
   margin-inline: auto;
-  margin-block: 1rem;
+  margin-bottom: 2rem;
+  width: fit-content;
 }
 
 h2 {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 p {
