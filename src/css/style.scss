@@ -10,6 +10,10 @@ body {
   font-family: system-ui;
   font-size: 1rem;
   line-height: 1.5;
+
+  @media (min-width: 600px) {
+    font-size: 1.2rem;
+  }
 }
 
 header {
@@ -124,5 +128,12 @@ button {
   &:hover {
     background-color: #777777;
     cursor: pointer;
+  }
+}
+
+footer {
+  p {
+    padding: 1rem;
+    text-align: center;
   }
 }
