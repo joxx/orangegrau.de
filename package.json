@@ -9,10 +9,10 @@
     "watch:rollup": "rollup -c -w",
     "watch:sass": "sass --source-map -w --style=expanded src/css:public/css",
     "watch:eleventy": "eleventy --serve",
+    "build:rollup": "rollup -c",
     "build:sass": "sass --style=compressed --no-source-map src/css:public/css",
     "build:eleventy": "eleventy",
     "rollup:help": "rollup --help"
-
   },
   "repository": {
     "type": "git",
@@ -31,6 +31,7 @@
   "homepage": "https://github.com/joxx/11ty-sass-starter#readme",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
+    "@rollup/plugin-terser": "^0.4.3",
     "chokidar-cli": "^3.0.0",
     "npm-run-all": "^4.1.5",
     "recursive-fs": "^2.1.0",
