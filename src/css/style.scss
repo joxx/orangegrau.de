@@ -1,9 +1,8 @@
+@use "config" as *;
 @use "reset" as *;
+@use "buttons" as *;
 @use "corners" as *;
 @use "layout" as *;
-
-$primary-color: #333;
-$secondary-color: #fefefe;
 
 body {
   background-color: $secondary-color;
@@ -49,23 +48,6 @@ header {
   &::after {
     background-color: #222;
     left: 1.3rem;
-  }
-}
-
-button {
-  @include rounded;
-
-  background: $primary-color;
-  border: 0;
-  border-radius: 4px;
-  color: $secondary-color;
-  font-size: 1rem;
-  line-height: 1;
-  padding: 0.5rem 0.8rem;
-
-  &:hover {
-    background-color: #777;
-    cursor: pointer;
   }
 }
 
