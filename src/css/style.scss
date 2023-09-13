@@ -20,7 +20,7 @@ header {
   align-items: center;
   display: flex;
   margin-inline: auto;
-  padding: 2rem 1rem;
+  padding-block: 2rem;
   width: min(calc(100% - 2rem), 60rem);
 }
 
@@ -94,7 +94,8 @@ nav {
 
 main {
   margin-inline: auto;
-  width: min(calc(100% - 1rem), 60rem);
+  margin-bottom: 2.5rem;
+  width: min(calc(100% - 2rem), 60rem);
 }
 
 section {
@@ -117,8 +118,11 @@ p {
 }
 
 footer {
+  background-color: #f0f0f0;
+  padding-block: 2.5rem;
+
   p {
-    padding: 1rem;
+    margin-bottom: 0;
     text-align: center;
   }
 }
