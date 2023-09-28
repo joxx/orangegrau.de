@@ -46,7 +46,7 @@ Define some basic styles for the accordion, using CSS.
 
 ```CSS
 .accordion-item {
-border: 1px solid #ccc;
+    border: 1px solid #ccc;
 margin-bottom: .5rem;
 }
 
